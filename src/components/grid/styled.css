@@ -1,0 +1,27 @@
+.App-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#grid-base {
+  display: grid;
+  grid-template-columns: repeat(20, 1.85vw);
+  grid-template-rows: repeat(20, 1.85vw);
+  width: 37vw;
+  height: 37vw;
+
+  /* margin: 0 auto; */
+}
+
+#grid-base .white-tile {
+  background-color: lavender;
+}
+
+#grid-base .black-tile {
+  background-color: cornflowerblue;
+  animation: fade 2s;
+}
